@@ -77,9 +77,13 @@
     display: contents;
 }
 
+.faq h1{
+  top: 16em
+}
+
 .faq_box{
   position: absolute;
-  top:50vh;
+  top:36em;
   height: 35em;
   overflow: scroll
 }
@@ -242,6 +246,7 @@
   flex-wrap: wrap;
   width: 90%;
   gap:2% 5%;
+  margin-top: 1em
 }
 
 .team_item{
@@ -249,7 +254,7 @@
   background-repeat: no-repeat;
   background-size: 100%;
   flex-basis: 30%;
-  height:30vh;
+  height:20em;
   font-family: Storybook;
   color: red;
   text-align:center;
@@ -258,7 +263,7 @@
 }
 
 .team_item p{
-  margin-top: 7vh;
+  margin-top: 9vh;
   letter-spacing: 2px
 }
 
