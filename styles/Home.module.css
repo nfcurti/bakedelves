@@ -268,11 +268,14 @@
 }
 
 .team_item img{
-  border-radius: 5px
+  border-radius: 5px;
+  transition: 0.5s all ease-out;
+
 }
 
 .team_item img:hover{
-  opacity: 0.7
+  opacity: 0.7;
+  transition: 0.5s all ease-out;
 }
 
 .connect{
