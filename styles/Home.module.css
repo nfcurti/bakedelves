@@ -78,12 +78,12 @@
 }
 
 .faq h1{
-  top: 16em
+  top: 10em
 }
 
 .faq_box{
   position: absolute;
-  top:36em;
+  top:26em;
   height: 35em;
   overflow: scroll
 }
