@@ -18,7 +18,7 @@ export default function Home() {
       return <Completionist />;
     } else {
       // Render a countdown
-      return <span>Launch in: {days}days {hours}hs {minutes}min {seconds}sec</span>;
+      return <span style={{fontFamily:'Storybook',letterSpacing:'1px'}}>Launch in: {days}days {hours}hs {minutes}min {seconds}sec</span>;
     }
   };
 
@@ -35,6 +35,14 @@ export default function Home() {
               <li onClick={() => {setTab(1)}}><a >FAQ</a></li>
               <li onClick={() => {setTab(2)}}><a>Vision</a></li>
               <li onClick={() => {setTab(3)}}><a>Team</a></li>
+              <li className={styles.social}>
+                <a><img src='/icons8-twitter.svg'/></a>
+              
+                <a><img src='/icons8-medium.svg'/></a>
+              
+                <a><img src='/icons8-discord (1).svg'/></a>
+              </li>
+
               
             </ul>
             <p className={styles.connect} onClick={() => {setTab(3)}}><a>CONNECT</a></p>
