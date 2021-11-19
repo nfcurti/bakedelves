@@ -36,11 +36,11 @@ export default function Home() {
               <li onClick={() => {setTab(2)}}><a>Vision</a></li>
               <li onClick={() => {setTab(3)}}><a>Team</a></li>
               <li className={styles.social}>
-                <a><img src='/icons8-twitter.svg'/></a>
+                <a href='twitter.com/freshbakedelves'><img src='/icons8-twitter.svg'/></a>
               
-                <a><img src='/icons8-medium.svg'/></a>
+                <a hidden><img src='/icons8-medium.svg'/></a>
               
-                <a><img src='/icons8-discord (1).svg'/></a>
+                <a hidden><img src='/icons8-discord (1).svg'/></a>
               </li>
 
               
