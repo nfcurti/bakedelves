@@ -90,10 +90,18 @@
 }
 
 .faq_wrapper{
-  width: 40%;
+  width: 30em;
   margin: auto;
   top: 50vh;
   display: block;}
+
+  .faq_wrapper span{
+    float: right;
+  }
+
+  .faq_wrapper:hover{
+    cursor: pointer
+  }
 
 .footer {
   display: flex;
@@ -254,7 +262,6 @@
   display: flex;
   flex-wrap: wrap;
   width: 90%;
-  gap:2% 5%;
   margin-top: 1em
 }
 
@@ -262,7 +269,7 @@
   background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.7)),url(/board.png);
   background-repeat: no-repeat;
   background-size: 100%;
-  flex-basis: 30%;
+  flex-basis: 33%;
   height:20em;
   font-family: Storybook;
   color: white;
