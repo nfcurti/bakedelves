@@ -17,8 +17,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: url('/background.jpeg');
-  background-size:100% 100%;
+  background: url('/Snowhills_web.png');
+  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;
   overflow: hidden;
 }
 .main2 {
@@ -28,14 +30,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color:black;
-  background-image:
-  radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
-  radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
-  radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
-  radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
-  background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
-  background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+  background: url('/Snowhills_web.png');
+  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;
   color:black;
 }
 .main3 {
@@ -46,14 +44,10 @@
   justify-content: center;
   align-items: center;
   background-color:black;
-  background-image:
-  radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
-  radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
-  radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
-  radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px),
-  url('https://www.publicdomainpictures.net/pictures/330000/velka/image-1586716592K15.jpg');
-  background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px, cover;
-  background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+  background: url('/Snowhills_web.png');
+  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;
   color:black;
 }
 
@@ -203,15 +197,18 @@
   position: absolute;
   bottom: -5px;
   left: 1em;
-  width: 80vh;
+  width:      100%;;
   overflow: hidden;
 }
 
 .hero img{
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
-  width:100%;
+  width:40%;
   filter: brightness(70%);
+  margin: auto;
+  display: block;
+  margin-bottom: -1em
 }
 
 .hero p{
@@ -220,8 +217,12 @@
   padding: 0em 5em;
   text-align: center;
   color: white;
-  font-size: 16px;
+  font-size: 14px;
   margin-left: 1em;
+  width: 40%;
+  margin: auto;
+      left: 0;
+    right: 0;
 
 }
 .hero button{
@@ -248,7 +249,7 @@
   color: white;
   position: absolute;
   right: 10vh;
-  top: 30vh
+  bottom:1em;
 }
 
 .social{
@@ -266,9 +267,6 @@
 }
 
 .team_item{
-  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.7)),url(/board.png);
-  background-repeat: no-repeat;
-  background-size: 100%;
   flex-basis: 33%;
   height:20em;
   font-family: Storybook;

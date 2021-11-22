@@ -51,7 +51,7 @@ export default function Home() {
       <main className={styles.main}>
           <Fade>
           <div className={styles.hero}>
-            <img src='/signboard.png'/>
+            <img src='/christmassign copy.png'/>
             <p>
             The freshly baked elves are a group of elves who refuse to make toys unless they are fed their strict diet - <b>cookies.</b>
             <br/>  <br/>
@@ -171,28 +171,22 @@ export default function Home() {
       <main className={styles.main3}>
         <div className={styles.team_wrapper}>
           <div className={styles.team_item}>
-            <p>Harvey Milk</p>
-            <img src='/harvey.png' width={125}/>
+            <img src='/Harvey Milk.png' width={250}/>
           </div>
           <div className={styles.team_item}>
-            <p>Based Gojo</p>
-            <img src='/gojo.png' width={125}/>
+            <img src='Based Gojo.png' width={250}/>
           </div>
           <div className={styles.team_item}>
-            <p>Juan</p>
-            <img src='/juan.png' width={125}/>
+            <img src='/Juan 2.png' width={250}/>
           </div>
           <div className={styles.team_item}>
-            <p>Designer Owl</p>
-            <img src='/owl.png' width={125}/>
+            <img src='/Designer Owl.png' width={250}/>
           </div>
           <div className={styles.team_item}>
-            <p>Spungus</p>
-            <img src='/spungus.png' width={125}/>
+            <img src='/Spungus 2.png' width={250}/>
           </div>
           <div className={styles.team_item}>
-            <p>Pandasykiwis</p>
-            <img src='/pandasykiwis.png' width={125}/>
+            <img src='/Pandasy Kiwis.png' width={250}/>
           </div>
         </div>
       </main> : ''}
