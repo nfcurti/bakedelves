@@ -149,19 +149,11 @@ export default function Home() {
           <div className={styles.faq_box}>
               <div className={styles.faq_wrapper}>
                 <p>
-                  <b>Launch on December 1st, 5PM UTC</b><br/>
-                  <b>Get Elves listed on secondary marketplaces</b><br/>
-                  Elves can be found on FTX, Solanart, DigitalEyes & Magic Eden<br/>
-                  <b>Provide rarity, analytic tools and sales bot for Elves holders</b><br/>
-                  Hodlers can make informed decisions via our published rarity at HowRare.is, through analytics on Solanalysis, Solanafloor, and our @elvessalesbot which is connected to all of our secondary marketplaces<br/>
-                  <b>Provide cookies to holders</b><br/>
-                  <b>Mint remaining 5000 via cookies</b><br/>
-                  <b>Donate Royalties</b><br/>
-                  <b>Launch 7 days of Christmas event</b><br/>
-                  <b>Select recipients of giving pool</b><br/>
-                  <b>Provide holders with exclusive access to the Freshly Baked Club</b><br/>
-                  <b>Launch next rendition</b><br/>
+                  Freshly Baked Elves' primary value is a quality NFT that provides a cookie token yield with the ability to mint many more NFTs at a compounding rate. By minting an elf, you're securing a yield-worthy NFT with the potential to distribute funds to people in your area who are in need.<br/><br/>
 
+                  Early Discord members will get a chance to mint elves before our public mint, which will be posted at an undisclosed time during the first week of December. Upon minting out, 10% of funds will be donated via the Giving Block to Toys for Tots. 25% of those funds will be used to fill our metaverse home with valuable NFTs to distribute to elf retirers during our 7 Days of Christmas event. During the event, the community will nominate and vote on 2 needy parties per day to give funds to! <br/><br/>
+
+                  After December ends, proceeds from the mint will be directly used to fund development of a non-seasonal and perfected DeFi NFT project that will build on the same mechanics that you partake in with the elves! We will be funding further development and a whole new art form to usher in a revolutionary NFT collection to the Solana community in early Q1 2022! Remaining elf holders will receive first access to the upcoming collection.<br/><br/>
                 </p>
               </div>
           </div>
