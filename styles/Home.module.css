@@ -8,7 +8,7 @@
 
 .nav{
   font-family: Storybook;
-  font-size: 1.2em
+  font-size: 1.3em
 }
 .main {
   min-height: 100vh;
@@ -31,8 +31,8 @@
   justify-content: center;
   align-items: center;
   background: url('/Snowhills_web.png');
-  background-size:cover;
-  background-position: center;
+  background-size:200%;
+  background-position: top;
   background-repeat: no-repeat;
   color:black;
 }
@@ -45,8 +45,8 @@
   align-items: center;
   background-color:black;
   background: url('/Snowhills_web.png');
-  background-size:cover;
-  background-position: center;
+  background-size:200%;
+  background-position: top;
   background-repeat: no-repeat;
   color:black;
 }
@@ -205,7 +205,6 @@
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
   width:40%;
-  filter: brightness(70%);
   margin: auto;
   display: block;
   margin-bottom: -1em
@@ -221,19 +220,20 @@
   margin-left: 1em;
   width: 40%;
   margin: auto;
-      left: 0;
+      left: -1%;
     right: 0;
 
 }
 .hero button{
   margin-top: 10px;
-  background: url(/Frame.png);
-  background-size: 100%;
+  background: white;
   outline: none;
   border: none;
-  padding: 1.2em;
-  color: white;
-  font-family: 'Storybook'
+  padding: 0.5em 3em;
+  color: red;
+  font-family: 'Storybook';
+  border-radius: 5px;
+  font-size: 1.3em
 }
 
 .hero button:hover{
