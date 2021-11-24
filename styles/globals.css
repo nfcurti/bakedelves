@@ -22,7 +22,8 @@ nav{
 	flex-wrap: wrap;
 	color: white;
 	width:100%;
-	padding: 1em 5em
+	padding: 1em 5em;
+	z-index: 9999
 }
 
 nav ul{}
