@@ -216,16 +216,16 @@
   width:40%;
   margin: auto;
   display: block;
-  margin-bottom: -1em
+  margin-bottom: -10em
 }
 
 .hero p{
   position: absolute;
-  top: 14vh;
+  top: 10em;
   padding: 0em 5em;
   text-align: center;
   color: white;
-  font-size: 14px;
+  font-size: 13px;
   margin-left: 1em;
   width: 40%;
   margin: auto;
