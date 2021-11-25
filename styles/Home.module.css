@@ -78,8 +78,8 @@
 
 .faq h1{
   top: 9em;
-  margin-left:16em;
-      width: -webkit-fill-available;
+  margin-left:20em;
+      width: 30em;
     margin: auto;
     display: block;
     margin-left: 2em;
@@ -221,11 +221,11 @@
 
 .hero p{
   position: absolute;
-  top: 10em;
+  top: 9em;
   padding: 0em 5em;
   text-align: center;
-  color: white;
-  font-size: 13px;
+  color: black;
+  font-size: 14px;
   margin-left: 1em;
   width: 40%;
   margin: auto;

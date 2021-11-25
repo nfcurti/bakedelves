@@ -54,9 +54,15 @@ export default function Home() {
           <div className={styles.hero}>
             <img src='/christmassign copy.png'/>
             <p>
-            The freshly baked elves are a group of elves who refuse to make toys unless they are fed their strict diet - <b>cookies.</b>
+            The Freshly Baked Elves are a group of 7000
+unemployed elves who refuse to make toys
+unless they are fed their strict diet of <b>cookies.</b>
             <br/>  <br/>
-            Luckily, the Freshly Baked Club has located <b>8000</b> unemployed elves to get things moving. Unfortunately, only <b>3000</b> of them have any sort of work ethic while the remaining <b>5000</b> elves will not work until they are fed cookies. Santa needs you to kick start his food production so that Christmas can still happen!<br/>
+            Unfortunately, only 3000 of them have been
+fed while the remaining 4000 refuse to work
+until they have their cookies. Santa needs you
+to kick start his food production so that
+Christmas can still happen!<br/>
             <button>Learn More</button>
             </p>
           </div>
