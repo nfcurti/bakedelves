@@ -118,7 +118,7 @@ Christmas can still happen!<br/>
                 <div onClick={() => {setFaqtab(6)}} className={styles.faq_wrapper}>
                   <h4>What charities will the proceeds be going to?<span>{faqtab!=6 ? '+':'-'}</span></h4>
                   {faqtab==6 ?
-                  <p>10% of minting proceeds, as well as 2.5% of total royalties, will go to Toys for Tots, a foundation helping underprivileged families provide a good Christmas to their children. 15% of minting proceeds will go toward the Freshly Baked Giving Pool.</p>
+                  <p>10% of minting proceeds, will go to Toys for Tots, a foundation helping underprivileged families provide a good Christmas to their children. 15% of minting proceeds will go toward the Freshly Baked Giving Pool.</p>
                   :''}
                 </div>
                 <div onClick={() => {setFaqtab(7)}} className={styles.faq_wrapper}>

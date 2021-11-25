@@ -87,8 +87,8 @@
 
 .faq_box{
   position: absolute;
-  top:26em;
-  height: 21em;
+  top:23em;
+  height: 37em;
   overflow: scroll;margin-left: 20em
 }
 
@@ -213,15 +213,15 @@
 .hero img{
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
-  width:40%;
+  width:45%;
   margin: auto;
   display: block;
-  margin-bottom: -10em
+  margin-bottom: -13em
 }
 
 .hero p{
   position: absolute;
-  top: 9em;
+  top: 11em;
   padding: 0em 5em;
   text-align: center;
   color: black;
